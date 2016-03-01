@@ -3,14 +3,14 @@
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="82">
-        <field name="OBJECT">ENTER</field>
+        <field name="OBJECT">UP</field>
       </block>
     </value>
     <statement name="DO">
       <block type="controls_if" id="103" inline="false">
         <value name="IF0">
           <block type="sensor_button" id="139">
-            <field name="OBJECT">UP</field>
+            <field name="OBJECT">ENTER</field>
           </block>
         </value>
         <statement name="DO0">
